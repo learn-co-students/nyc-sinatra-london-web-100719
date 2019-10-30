@@ -1,0 +1,14 @@
+<table>
+  <tr>
+    <th>Figure Name</th>
+  </tr>
+  <tr>
+    <td><%= @figure.name %></td>
+  </tr>
+<table>
+
+<h1>Title 1: <%= @figure.titles[0] %></h1>
+<h1>Title 2: <%= @figure.titles[1] %></h1>
+
+<a class="button" href="/figures/<%= @figure.id %>/edit">Edit Figure</a><br>
+<a class="button" href="/figures">Figures</a>
