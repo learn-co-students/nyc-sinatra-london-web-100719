@@ -5,8 +5,6 @@ gem 'sinatra-activerecord', :require => 'sinatra/activerecord'
 gem 'sqlite3', '~>1.3.6'
 gem 'sinatra'
 gem 'thin'
-gem 'shotgun'
-gem 'tux'
 gem 'pry'
 gem 'rake'
 gem 'rspec'
@@ -14,3 +12,8 @@ gem 'rack-test'
 gem 'sinatra-twitter-bootstrap', :require => 'sinatra/twitter-bootstrap'
 gem 'capybara'
 gem 'require_all'
+
+group :development do 
+    gem 'shotgun'
+    gem 'tux'
+end
